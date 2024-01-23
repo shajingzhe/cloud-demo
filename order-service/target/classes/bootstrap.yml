@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      config:
+        file-extension: text
+pattern:
+  name1: 本地环境local boot
